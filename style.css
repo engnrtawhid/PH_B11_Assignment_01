@@ -16,7 +16,29 @@ body {
     background: #006A50;
     color: #FFFFFF;
     font-size: 18px;
+}
 
+.button_secondary {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #5490F5;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 24px;
+    border: none;
+}
+
+.primary_heading {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.paragraph_primary {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* Nav related Styles */
@@ -72,18 +94,16 @@ body {
 }
 
 /* Pillar Section */
+.vision_section{
+    margin-bottom: 80px;
+}
 .pillar_cards{
     display: flex;
     gap: 24px;
     margin-bottom: 80px;
 }
 
-.pillar_heading {
-    color: #0E0E0E;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 32px;
-}
+
 
 .card_container {
     padding: 24px;
@@ -96,7 +116,6 @@ body {
 .card_title {
     margin-top: 24px;
     color: rgba(14, 14, 14, 0.80);
-    font-family: "Fira Sans";
     font-size: 20px;
     font-weight: 700;
 }
@@ -104,8 +123,60 @@ body {
 .card_description {
     margin-top: 12px;
     color: rgba(14, 14, 14, 0.70);
-    font-family: "Fira Sans";
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Vision related Styles */
+
+.vision_content {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#card_blue{
+    background: rgba(84, 144, 245, 0.20);
+}
+
+#card_green{
+    background: #C6E4D6;
+}
+
+#card_yellow {
+    background: #F7EBCF;
+}
+
+#btn_green{
+    background: #09A15C;
+}
+
+#btn_yellow {
+    background: #FFC239;
+}
+
+.vision_quote {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 24px 24px 48px 24px;
+}
+
+
+#younus_quotes{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-bottom: 12px;
+}
+ 
+.dr_younus {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 

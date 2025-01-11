@@ -18,6 +18,7 @@
     padding: 17px 34px;
     border-radius: 8px;
     background: #006A50;
+    border: 1px solid #006A50;
     color: #FFFFFF;
     font-size: 18px;
     transition: 0.5s ease, color 0.5s ease;
@@ -35,12 +36,13 @@
     padding: 11px 20px;
     border-radius: 8px;
     background: #5490F5;
+    border: 1px solid #5490F5;
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 24px;
     border: none;
     cursor: pointer;
-    transition: 0.3s ease, color 0.3s ease;
+    transition: 0.3s ease, 0.3s ease;
 }
 
 .button_secondary:hover {
@@ -184,14 +186,19 @@
 #card_yellow {
     background: #F7EBCF;
 }
+
+#btn_blue {
+    border: 1px solid #5490F5;
+}
+
 #btn_blue:hover{
     background-color: #F1F1F3;
     border: 1px solid gray;
     color: #5490F5;
-    font-weight: 600;
 }
 #btn_green{
     background: #09A15C;
+    border: 1px solid #09A15C;
     transition: 0.5s ease, color 0.5s ease;
 }
 
@@ -199,11 +206,11 @@
     background-color: #F1F1F3;
     border: 1px solid gray;
     color: #09A15C;
-    font-weight: 600;
 }
 
 #btn_yellow {
     background: #FFC239;
+    border: 1px solid #FFC239;
     transition: 0.5s ease, color 0.5s ease;
 }
 
@@ -211,7 +218,6 @@
     background-color: #F1F1F3;
     border: 1px solid gray;
     color: #FFC239;
-    font-weight: 600;
 }
 
 .vision_quote {
@@ -235,6 +241,52 @@
     font-weight: 600;
     margin-bottom: 5px;
 }
+/* Opinion Section Styles */
+.table_container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+}
+
+.table_heading {
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);   
+}
+
+.table_heading td {
+    padding: 24px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+table tbody td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table tbody select {
+    padding: 14px 20px;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.select_class {
+    text-align: center;
+}
+
+.select_ur_opinion {
+    text-align: center;
+}
+
+
 
 /* News Section Styles */
 .news_container {
@@ -373,9 +425,9 @@
 
 #newsletter_submit{
     padding: 18px 40px;
-    border: none;
     border-radius: 0px 8px 8px 0px;
     background: #006A50;
+    border: 1px solid #006A50;
     color: #FFFFFF;
     font-size: 18px;
     transition: 0.5s ease, color 0.5s ease;

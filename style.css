@@ -20,6 +20,15 @@
     background: #006A50;
     color: #FFFFFF;
     font-size: 18px;
+    transition: 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+.button_primary:hover {
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #09A15C;
+    font-weight: 600;
 }
 
 .button_secondary {
@@ -30,6 +39,15 @@
     font-size: 16px;
     margin-top: 24px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s ease, color 0.3s ease;
+}
+
+.button_secondary:hover {
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #09A15C;
+    font-weight: 600;
 }
 
 .primary_heading {
@@ -54,7 +72,6 @@
     margin-top: 24px;
     margin-bottom: 24px;
 }
-
 .nav_title {
     color: #0E0E0E;
     font-size: 32px;
@@ -69,7 +86,16 @@
     padding: 15px 30px;
     border-radius: 8px;
     border: 2px solid #006A50;
+    transition: 0.5s ease, color 0.5s ease;
+    cursor: pointer;
 }
+
+.nav_button:hover {
+    background-color: #006A50;
+    color: #fff;
+}
+
+
 
 /* Banner Styles */
 .banner_title {
@@ -115,6 +141,11 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
     border: none;
+    transition: 0.3s;
+}
+
+.card_container:hover {
+    background: #C6E4D6;
 }
 
 .card_title {
@@ -153,13 +184,34 @@
 #card_yellow {
     background: #F7EBCF;
 }
-
+#btn_blue:hover{
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #5490F5;
+    font-weight: 600;
+}
 #btn_green{
     background: #09A15C;
+    transition: 0.5s ease, color 0.5s ease;
+}
+
+#btn_green:hover{
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #09A15C;
+    font-weight: 600;
 }
 
 #btn_yellow {
     background: #FFC239;
+    transition: 0.5s ease, color 0.5s ease;
+}
+
+#btn_yellow:hover{
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #FFC239;
+    font-weight: 600;
 }
 
 .vision_quote {
@@ -204,6 +256,8 @@
 
 .news_image {
     border-radius: 24px;
+    width: 400px;
+    height: 300px;
 }
 
 .news_headline{
@@ -250,10 +304,24 @@
     color: rgba(14, 14, 14, 0.80);
     font-size: 40px;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease, color 0.5s ease;
 }
+
+.amount:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+
 
 #taka200 {
     background: #C6E4D6;
+    transition: 0.5s ease, color 0.5s ease;
+}
+
+#taka200:hover {
+    background-color: #006A50;
+    color: #fff;
 }
 
 .donate_section input {
@@ -294,7 +362,6 @@
 
 #newsletter {
     padding: 18px 350px 18px 20px;
-
     border: none;
     border-radius: 8px 0px 0px 8px;
     color: rgba(14, 14, 14, 0.30);
@@ -305,11 +372,22 @@
 
 
 #newsletter_submit{
-    padding: 19px 40px;
+    padding: 18px 40px;
     border: none;
     border-radius: 0px 8px 8px 0px;
     background: #006A50;
     color: #FFFFFF;
+    font-size: 18px;
+    transition: 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+#newsletter_submit:hover{
+    background-color: #F1F1F3;
+    border: 1px solid gray;
+    color: #09A15C;
+    font-weight: 600;
+
 }
 
 

@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+  
+}
 
-body {
-    margin: 0 160px;
+.primary_bg {
     background-color: #F1F1F3;
 }
 
@@ -218,4 +222,115 @@ body {
 
 .news_content button {
     margin-top: 32px;
+}
+
+/* Donate Section Styles */
+
+.donate_section {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+
+.donate_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.amount{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#taka200 {
+    background: #C6E4D6;
+}
+
+.donate_section input {
+    width: 60%;
+    padding: 20px 40px;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 32px;
+    border: none;  
+    text-align: center; 
+}
+
+.donate_now {
+    display: block;
+    margin-top: 32px;
+}
+
+/* Newsletter Section */
+.newsletter_section {
+    text-align: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
+
+.newsletter_section p {
+    margin-top: 24px;
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#newsletter {
+    padding: 18px 350px 18px 20px;
+
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+#newsletter_submit{
+    padding: 19px 40px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    color: #FFFFFF;
+}
+
+
+
+/* Footer Section */
+footer {
+    background-color: #FFF;
+    padding: 50px;
+}
+ .footer_container {
+    text-align: center;
+ }
+
+.footer_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer_line {
+    margin: 32px 0;
+    color: rgba(14, 14, 14, 0.10);
 }
